@@ -16,7 +16,7 @@ html{
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 0;
-    scroll-margin-top: 70px;
+    scroll-margin-top: 100px;
 }
 
 body{
@@ -214,6 +214,9 @@ img{
     margin: 30px;
     width: auto;
     height: auto;
+}
+.task img{
+    width: 50%;
 }
 
 .footer{
