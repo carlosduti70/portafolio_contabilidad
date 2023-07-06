@@ -15,7 +15,6 @@ html{
 }
 *, *:before, *:after {
     box-sizing: inherit;
-    margin: 0;
     scroll-margin-top: 70px;
 }
 
