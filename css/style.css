@@ -15,6 +15,7 @@ html{
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
     scroll-margin-top: 70px;
 }
 
@@ -201,6 +202,12 @@ header h1{
     padding: 30px;
     line-height: 1.5;
 }
+.moment .task{
+    width: 100%;
+}
+/* .moment .task img{
+    width: 80%;
+} */
 
 img{
     margin: 30px;
