@@ -57,7 +57,7 @@ p{
 .titulo {
     
     /* text-transform: uppercase;   mayusula   hacer la letra mayuscula*/
-    font-size: 3.8rem;
+    font-size: 2.8rem;
 }
 .titulo span{
     font-size: 2rem;
@@ -110,14 +110,12 @@ p{
     cursor: pointer;
 }
 header{
-    margin-top: 35px;
+    margin-top: 45px;
     position: fixed;
     z-index: 1;
     display: flex;
 }
-header h1{
-    border-radius: 10px;
-}
+
 .contenido-hero h2{
     font-size: 3.8rem;
 }
@@ -156,7 +154,7 @@ header h1{
 }
 
 .hero{
-    background-image: url(../imagen/foondo.png);
+    background-image: url(https://academy.contabilizalo.com/images/index_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
@@ -215,10 +213,78 @@ img{
     width: auto;
     height: auto;
 }
-.task img{
+/* .task img{
     width: 50%;
+} */
+
+/* ---------------------------------------------- */
+
+.task .horas_extra_1{
+    width: 70%;
+}
+.task .horas_extra_2{
+    width: 70%;
+}
+.task .horas_extra_3{
+    width: 70%;
 }
 
+
+
+.task .beneficios_sociales_calculo{
+    width: 40%;
+}
+.task .beneficios_sociales_1{
+    width: 33%;
+}
+.task .beneficios_sociales_2{
+    width: 33%;
+}
+
+.task .rol_de_pagos_1{
+    width: 35%;
+}
+.task .rol_de_pagos_2{
+    width: 50%;
+}
+.task .rol_de_pagos_3{
+    width: 50%;
+}
+.task .prueba_primer_momento{
+    width: 80%;
+}
+
+
+
+.task .inventario_promedio{
+    width: 80%;
+}
+.task .inventario_peps{
+    width: 80%;
+}
+.task .inventario_ueps{
+    width: 80%;
+}
+.task .prueba_segundo_momento{
+    width: 80%;
+}
+
+
+
+
+.task .analisis_financiero_1{
+    width: 90%;
+}
+.task .analisis_financiero_2{
+    width: 90%;
+}
+.task .analisis_horizontal{
+    width: 80%;
+}
+.task .analisis_vertical{
+    width: 80%;
+}
+/* ---------------------------------------------- */
 .footer{
     text-align: center;
 }
