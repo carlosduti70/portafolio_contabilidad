@@ -1,0 +1,214 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+}
+
+/* convertir de rem a pixeles 1rem = 10 px  */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* scroll-snap-type: y mandatory; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    scroll-margin-top: 70px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% ); /*color degradado*/
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(79,66,79,0.81);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(79,66,79,0.81);
+    box-shadow: 0px 5px 15px 0px rgba(79,66,79,0.81);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+h1{
+    font-size: 3.8rem;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: var(--primario);
+}
+h2{
+    font-size: 2.8rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: var(--secundario);
+}
+h3{
+    font-size: 1.8rem;
+}
+h1, h3{
+    text-align: center;
+}
+p{
+    font-size: 2.5rem;
+}
+.titulo {
+    
+    /* text-transform: uppercase;   mayusula   hacer la letra mayuscula*/
+    font-size: 3.8rem;
+}
+.titulo span{
+    font-size: 2rem;
+}
+
+
+/* utilidades */
+.w-sm-100{
+    width: 100%;
+}
+@media (min-width:768px) {
+    .w-sm-100{
+        width: auto;
+    }
+    
+}
+.flex{
+    display: flex;
+}
+.alinear-derecha{
+    justify-content: flex-end;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+@media (min-width:480px) {
+    .boton{
+        width: auto;
+    }
+    
+}
+.boton:hover{
+    cursor: pointer;
+}
+header{
+    margin-top: 35px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+}
+header h1{
+    border-radius: 10px;
+}
+.contenido-hero h2{
+    font-size: 3.8rem;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.hero{
+    background-image: url(../imagen/foondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-hero{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero p {
+    color: var(--blanco);
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.moment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #D5DBDB;
+}
+.moment p{
+    text-align: justify;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+img{
+    margin: 30px;
+    width: auto;
+    height: auto;
+}
+
+.footer{
+    text-align: center;
+}
