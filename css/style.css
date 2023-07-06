@@ -205,9 +205,10 @@ header h1{
 .moment .task{
     width: 100%;
 }
-/* .moment .task img{
-    width: 80%;
-} */
+
+.moment h1{
+    margin-bottom: 30px;
+}
 
 img{
     margin: 30px;
